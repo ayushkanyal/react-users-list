@@ -18,11 +18,11 @@ form > input{
     margin-bottom: 5px;
 }
 
-form > button{
+button{
     width: 24%;
     color: white;
     background-color: darkmagenta;
     border-radius: none;
     border-color: darkmagenta;
-    padding: 2px;
+    padding: 1.5%;
 }
