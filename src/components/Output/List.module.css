@@ -21,3 +21,13 @@ ul > li{
     width: 100%;
     padding: 1%;
 }
+
+.invalid{
+    color: red;
+    background-color: yellow;
+    font-size: 29px;
+    padding: 1%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
