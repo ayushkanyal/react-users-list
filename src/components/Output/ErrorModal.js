@@ -9,10 +9,10 @@ export default function ErrorModal(props){
     return(
         <div className={style.error}>
             <header>
-                <h2>Error</h2>
+                <h2>{props.title}</h2>
             </header>
             <div>
-                <p>There was an error with the input</p>
+                <p>{props.text}</p>
             </div>
             <footer>
                 <button onClick={handleClick}>
