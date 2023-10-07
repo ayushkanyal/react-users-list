@@ -31,7 +31,6 @@ function App() {
       });
       return;
     } else {
-      setError(true);
       setName((values) => [...values, input.username]);
       setAge((values) => [...values, input.age]);
       setInputs((values) => [...values, input]);
