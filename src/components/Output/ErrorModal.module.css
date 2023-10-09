@@ -9,6 +9,7 @@
 }
 
 .error {
+  z-index:11;
   position: fixed;
   padding: 0px;
   left: 30%;
