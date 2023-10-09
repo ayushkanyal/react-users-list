@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 const Backdrop = () => {
   return <div className={style.overlay}></div>;
 };
-
 const Modal = (props) => {
   return (
     <div className={style.error}>
