@@ -7,7 +7,6 @@ export default function Form(props) {
     age: "",
   }
   const [inputs, setInputs] = useState(initialValue);
-
   function handleSubmit(event) {
     event.preventDefault();
     props.onAdd(inputs);
