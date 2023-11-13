@@ -19,7 +19,6 @@ const Modal = (props) => {
     </div>
   );
 };
-
 export default function ErrorModal(props) {
   return (
     <>
