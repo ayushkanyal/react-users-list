@@ -4,7 +4,6 @@ export default function List(props) {
     console.log("List was activated");
   console.log(props.list);
   const recieved = props.list;
- 
   return (
     <ul className={style.ul}>
       {recieved.length === 0 ? (
