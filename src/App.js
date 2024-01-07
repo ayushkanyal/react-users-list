@@ -10,6 +10,7 @@ function App() {
   const [error, setError] = useState(false);
   const [inputs, setInputs] = useState([]);
 
+
   function handleClick() {
     setError(false);
   }
